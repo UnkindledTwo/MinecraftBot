@@ -249,7 +249,7 @@ with open('trades.txt', 'r') as file:
 client = MinecraftBot(intents=intents)
 loggedintimer = threading.Thread(target=client.print_logged_in)
 loggedintimer.start()
-client.run('MTA3MjkxMjg3MjQ0MDYwNjg2MQ.GsJJWi.b47jHKnlf9ST1WfoSM9Rl7-cqi0xij-V-BsegU')
+client.run('token')
 
 print("Stopflag set")
 stopFlag = True
